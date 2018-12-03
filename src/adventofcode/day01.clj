@@ -1035,5 +1035,5 @@
 
 (defn part-two [input]
   (let [count-twice (fn [acc n] (if (get acc n) (reduced n) (assoc acc n 1)))
-        clock-frequencies (->> (cycle input) (reductions + 0))]
+        clock-frequencies (reductions + 0 (cycle input))]
     (reduce count-twice {} clock-frequencies)))
