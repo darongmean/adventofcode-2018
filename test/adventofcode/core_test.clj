@@ -7,7 +7,7 @@
 
 (deftest day01-test
   (testing "part 01"
-    (is (= 595 (day01/part-one))))
+    (is (= 595 (day01/part-one day01/changes))))
   (testing "part 02"
     (is (= 0 (day01/part-two [1 -1])))
     (is (= 10 (day01/part-two [3 3 4 -2 -4])))

@@ -1029,8 +1029,8 @@
    -80486])
 
 
-(defn part-one []
-  (reduce + changes))
+(defn part-one [input]
+  (reduce + input))
 
 
 (defn part-two [input]
