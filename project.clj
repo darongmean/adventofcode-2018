@@ -10,5 +10,4 @@
 
   :profiles {:dev {:plugins [[com.jakemccrary/lein-test-refresh "0.23.0"]
                              [pjstadig/humane-test-output "0.9.0"]
-                             [lein-kibit "0.1.6"]
-                             [venantius/yagni "0.1.6"]]}})
+                             [lein-kibit "0.1.6"]]}})
